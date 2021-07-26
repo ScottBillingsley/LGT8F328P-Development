@@ -68,8 +68,8 @@ void setup() {
   /*************************  Setup Timer0 ************************/
   cli();                //stop interrupts
   
-  TCCR0A = 0; /*Clear TCCR1A register */
-  TCCR0B = 0; /*Clear TCCR1B register */
+  TCCR0A = 0; /*Clear TCCR0A register */
+  TCCR0B = 0; /*Clear TCCR0B register */
   TCNT0  = 0; /*Initialize counter value to 0 */
   /* High Speed Clock sys * 2 */
   /* 125 kHz, 124940 measured */
